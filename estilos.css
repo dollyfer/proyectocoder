@@ -200,6 +200,20 @@ main{
     from {width: 0 ;}
 }
 @keyframes blink{
-    50% { border-color: transparent;
+    50% { border-color: transparent;}
 }
+
+.imagentransicion:hover{
+filter: brightness(0.6);
+transform: scale(1.1);
+}
+.transiciones{
+    overflow: hidden;
+}
+.imagentransicion{
+    margin-top: 15px;
+   transition: all .9s ease;
+   border: 2px solid black;
+}
+
 
