@@ -195,6 +195,8 @@ main{
     width: 11ch;
     animation: typing 5s steps(11), blink .5s infinite step-end alternate;
     overflow: hidden;
+
+    
 }
 @keyframes typing{
     from {width: 0 ;}
@@ -216,4 +218,19 @@ transform: scale(1.1);
    border: 2px solid black;
 }
 
-
+.row1{
+    background-color: #ffdae054
+}
+.navbar-expand-lg .navbar-collapse{
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.sacoover{
+    overflow: hidden;
+}
+.alineacion{
+    text-align: center;
+}
