@@ -15,10 +15,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="./imagenes/nailswithdo.png" />
     <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
 <body class="row1">
-    <header class="container colorfondo">
+    <header class="container-fluid colorfondo">
         <div class="titulo">
             <h1>NAILS WITH DO</h1>
         </div>
@@ -85,58 +86,74 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <section class="grid_container">
+            <section class="container-fluid">
                 <div class="row">
-                <div class="imagen col-lg-3">
-                    <img src="./imagenes/quienes somos.png" alt="quienessomos" width="150px" height="150px" />
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <img src="./imagenes/quienes somos.png" alt="quienessomos" width="150px" height="150px" />
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <h2 class="roboto">Quienes Somos</h2>
+                        <p>
+                            Nails With Do es un emprendimiento de manicura que nacio en
+                            diciembre de 2021, de una estudiante que en su tiempo libre le
+                            gustaba pintarles las uñas a familiares y amigos. Todos los
+                            servicios los realizamos con mucho amor, siempre para que el cliente
+                            quede 100% satisfecho.
+                        </p>
+                    </div>
                 </div>
-            </div>
-                <div class="row">
-                <div class="texto col-lg-3 col-lg-offset-6">
-                    <h2 class="roboto">Quienes Somos</h2>
-                    <p>
-                        Nails With Do es un emprendimiento de manicura que nacio en
-                        diciembre de 2021, de una estudiante que en su tiempo libre le
-                        gustaba pintarles las uñas a familiares y amigos. Todos los
-                        servicios los realizamos con mucho amor, siempre para que el cliente
-                        quede 100% satisfecho.
-                    </p>
-                </div>
-            </div>
             </section>
 
-            <section class="row todoborde sacoover">
-                <div class="titulo">
-                    <h2 class="roboto maquinaescribir">PORTFOLIO</h2>
-                </div>
-                <div id="axis" class="galeria eight">
-                    <img class="object car larger" src="./imagenes/nails2.jpeg" alt="nails2" width="200px"
-                        height="200px" />
-                    <img class="object car larger" src="./imagenes/nails3.jpeg" alt="nails3" width="200px"
-                        height="200px" />
-                    <img class="object car larger" src="./imagenes/nails4.jpeg" alt="nails4" width="200px"
-                        height="200px" />
-                    <img class="object car larger" src="./imagenes/nails5.jpeg" alt="nails5" width="200px"
-                        height="200px" />
-                    <img class="object car larger" src="./imagenes/nails6.jpeg" alt="nails6" width="200px"
-                        height="200px" />
+            <section class="container-fluid todoborde">
+                <div class="row">
+                    <div class=" titulo">
+                        <h2 class="roboto maquinaescribir">PORTFOLIO</h2>
+                    </div>
+                    <div id="axis" class=" row galeria eight">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <img class="object car larger" src="./imagenes/nails2.jpeg" alt="nails2" width="200px"
+                                height="200px" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <img class="object car larger" src="./imagenes/nails3.jpeg" alt="nails3" width="200px"
+                                height="200px" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <img class="object car larger" src="./imagenes/nails4.jpeg" alt="nails4" width="200px"
+                                height="200px" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <img class="object car larger" src="./imagenes/nails5.jpeg" alt="nails5" width="200px"
+                                height="200px" />
+                        </div>
+                    </div>
                 </div>
             </section>
 
         </div>
     </main>
-    <footer class="pie">
-        <div>
-            <img src="./imagenes/instagram.png" alt="insta" width="100px" height="100px" />
-            <p>@nailswithdo_</p>
+    <footer class="container-fluid footercolor">
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 nombreFooter">
+                <h3>NAILS WITH DO</h3>
+                <div class="iconFooter"><i class="bi bi-instagram">Nailswithdo_</i>
+                    <i class="bi bi-facebook">Nails With Do</i>
+                    <i class="bi bi-whatsapp">12345678</i></div>
+                
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 logoNegro">
+                <img src="./imagenes/NailswithDonegro.png" alt="lognegro" width="150px" height="150px" >
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <iframe width="250px" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?width=250&amp;height=250&amp;hl=en&amp;q=reconquista%20y%20ferreyra%20Rosario+(Nailswithdo)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
         </div>
-        <div>
-            <img src="./imagenes/directorio.png" alt="contact" width="100px" height="100px" />
-            <p>1231231212</p>
-        </div>
-        <iframe width="auto" height="374" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            id="gmap_canvas"
-            src="https://maps.google.com/maps?width=368&amp;height=374&amp;hl=en&amp;q=reconquista%20y%20ferreyra%20Rosario+(Nailswithdo)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
     </footer>
 
 
