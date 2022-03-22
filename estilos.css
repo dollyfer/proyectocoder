@@ -280,7 +280,9 @@ body {
 
 
 }
-
+form{
+    margin-bottom: 3%;
+}
 .aliniframe{
     display: flex;
     justify-content: center;
